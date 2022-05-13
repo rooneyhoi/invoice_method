@@ -1,0 +1,10 @@
+.client-item {
+  align-items: center; 
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-item span {
+  width: 25%;
+}

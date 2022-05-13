@@ -1,0 +1,45 @@
+.sub-total-table{
+  font-size: 14px;
+}
+
+.sub-total-label {
+  text-align: right;
+  width: 250px;
+}
+
+.sub-total-data {
+  width: 120px;
+  margin: 0px 10px;
+}
+
+.grand-total-block {
+  margin-top: 30px;
+}
+
+.grand-total-block-small {
+  margin-top: 10px;
+}
+
+.grand-total-label {
+  font-size: 22px; 
+  text-align: right;
+  width: 250px;
+}
+
+.grand-total-label-hide {
+  font-size: 14px; 
+  text-align: right;
+  opacity: 0;
+}
+
+.grand-total-amount {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0px 10px;
+}
+
+.grand-total-amount-small {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0px 10px;
+}

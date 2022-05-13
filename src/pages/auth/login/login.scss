@@ -1,0 +1,18 @@
+body.with-login-background {
+  background: url('../../../assets/img/login-background.png');
+  background-size: 30%;
+  background-repeat: repeat-y;
+
+  @media screen and (max-width: 767px) {
+    background: none;
+  }
+}
+
+.login.page-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 0 0 30%;
+}

@@ -1,0 +1,23 @@
+.client-filter {
+  color: white;  
+}
+
+.client-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;  
+}
+
+.client-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.client-filter select {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+}

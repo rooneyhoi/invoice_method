@@ -1,0 +1,79 @@
+.invoice-page {
+  align-items: center; 
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-page-header {
+  align-items: baseline; 
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 40px;
+  width: 100%;
+}
+
+.invoice-page-header span{
+  background: transparent;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.invoice-page-content{  
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 50px 40px;
+  width: 860px;
+}
+
+.invoice-highlight-content {
+  font-size: 22px;
+}
+
+.block-invoice-information {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block-client-information {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px;
+  justify-content: space-between;
+}
+
+.block-payment-status {
+  background-color: #199F19;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.block-payment-status span {
+  padding: 0px 5px;
+}
+
+.block-invoice-notes {
+  background-color: #EFF0F0;
+  margin-bottom: 25px;
+  padding: 25px 40px;
+  width: 100%;
+}
+
+.block-invoice-notes span {
+  color: #838383;
+}
+
+.block-sub-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

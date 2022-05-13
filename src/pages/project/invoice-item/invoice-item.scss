@@ -1,0 +1,11 @@
+.invoice-item {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.invoice-item span{
+  font-size: 14px;
+  padding: 5px;
+  flex: 1;
+}

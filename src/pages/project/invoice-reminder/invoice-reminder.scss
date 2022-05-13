@@ -1,0 +1,26 @@
+.paid_reminder {
+  background-color: rgba(155, 27, 26, 1);
+  padding: 10px 20px;
+  text-align: right;
+  width: 100%;
+}
+
+.paid_reminder span{
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.send_reminder {
+  background-color: rgba(155, 27, 26, 0.5);
+  padding: 10px 20px;
+  text-align: right;
+  width: 100%;
+}
+
+.send_reminder span{
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+}
+

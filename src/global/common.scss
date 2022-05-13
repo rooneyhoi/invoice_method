@@ -1,0 +1,104 @@
+@import "bootstrap";
+
+body {
+  color: #2b303b;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 16px;
+
+    &::before {
+      content: 'This app does not support small screen. Please view it with at least 768px width screen';
+      display: block;
+      margin: auto;
+      position: relative;
+      text-align: center;
+      transform: translateY(-50%);
+    }
+
+    * {
+      display: none;
+    }
+  }
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+small {
+  font-size: 12px;
+}
+
+.input-group {
+  border: #d3d3d3 1px solid;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+
+  .form-label {
+    color: #838383;
+    font-size: 8px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 8px;
+    text-transform: uppercase;
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    font-size: 18px;
+    outline: none;
+    padding: 0 10px 10px;
+    width: 100%;
+  }
+}
+
+.btn.btn-primary {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  height: 40px;
+  min-width: 180px;
+  text-transform: uppercase;
+}
+
+.page-container {
+  padding: 0 50px 50px;
+}
+
+.grey {
+  color: #838383;
+}
+
+.warn {
+  color: #9b1a1a;
+}
+
+.row {
+  display: flex;
+}

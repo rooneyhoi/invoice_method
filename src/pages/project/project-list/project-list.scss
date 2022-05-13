@@ -1,0 +1,21 @@
+.project-list {
+  display: flex;
+  flex-direction: column;  
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.title-bar p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.title-bar span {
+  margin-top: 25px;
+}
